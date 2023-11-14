@@ -1,19 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-import ProductList from './components/ProductList';
-import Counter from './components/counter';
+import React from 'react';
+import Navbar from './components/NavBar/Navbar';
+import Home from './components/Home/Home';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Counter />
-        <ProductList />
-        
-      </header>
-    </div>
+    <main>
+      <Navbar />
+      <Home />
+   
+  </main>
+
   );
 }
 
 export default App;
+
+

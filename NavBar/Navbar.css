@@ -1,0 +1,30 @@
+.logo {
+    object-fit: cover;
+    height: 4rem;
+    width: 5rem;
+}
+
+.navbar{
+    height: 5rem;
+    width: 100vw;
+    max-width: 100rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.desktopMenuListItem {
+    margin: 2rem;
+    cursor: pointer;
+}
+
+.desktopMenuListItem:hover{
+    color: aqua;
+    padding-bottom: .5rem;
+    border-bottom: 3px solid aqua;
+}
